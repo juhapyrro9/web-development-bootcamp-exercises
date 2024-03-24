@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Libre Baskerville", serif;
+    src: url("./assets/font/Libre_Baskerville/LibreBaskerville-Regular.ttf") format("truetype");
+  }
+
+
+body {
+    background-color: black; 
+    font-family: arial; 
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 { 
+    font-family: "Libre Baskerville", serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+div {
+    width: 50%;
+    margin-left: 25%;
+
+}
+
+img {
+    border: 10px white solid;
+}
