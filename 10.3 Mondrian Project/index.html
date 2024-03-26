@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    .grid {
+      background-color: #000;
+      display: grid;
+      grid-template-columns: 4fr 2fr 2fr 1fr;
+      grid-template-rows: 10fr 3fr 5fr 1fr;
+      gap: 10px;
+      height: 100vh;
+    }
+
+    .grid > * {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+    }
+
+    .one {
+      background-color: #E72F24;
+      grid-column-start: 1;
+      grid-column-end: 2; 
+    }
+    .two {
+      background-color: #F0F1EC;
+      grid-column-start: 2;
+      grid-column-end: 5;
+    }
+    .three {
+      background-color: #F0F1EC;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 4;
+    }
+    .four {
+      background-color: #F0F1EC;
+      grid-column-start: 2;
+      grid-column-end: 4;
+      grid-row-start: 2;
+      grid-row-end: 4;
+    }
+    .five {
+      background-color: #004592
+    }
+    .six {
+      background-color: #F0F1EC;
+      grid-row-start: 3;
+      grid-row-end: 5;
+    }
+    .seven {
+      background-color: #E72F24;
+      background-color: #F0F1EC;
+    }
+    .eight {
+      background-color: #F9D01E
+    }
+    .nine {
+      background-color: #232629
+    }
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="grid">
+    <div class="one">1</div>
+    <div class="two">2</div>
+    <div class="three">3</div>
+    <div class="four">4</div>
+    <div class="five">5</div>
+    <div class="six">6</div>
+    <div class="seven">7</div>
+    <div class="eight">8</div>
+    <div class="nine">9</div>
+  </div>
+</body>
+
+</html>
